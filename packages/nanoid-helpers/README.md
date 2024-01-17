@@ -1,1 +1,1 @@
-# `template`
+# @keanugrieves/nanoid-helpers
