@@ -4,8 +4,12 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "test": "turbo test"
+  },
+  "dependencies": {
+    "@changesets/cli": "2.27.1"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
