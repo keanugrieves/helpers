@@ -2,7 +2,7 @@
   "extends": "@repo/typescript-config/library.json",
   "compilerOptions": {
     "outDir": "dist",
-    "types": ["jest", "node"]
+    "types": ["node"]
   },
   "include": ["src", ".eslintrc.cjs"],
   "exclude": ["node_modules", "dist"]
