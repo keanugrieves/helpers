@@ -1,5 +1,11 @@
 # @keanugrieves/zod-helpers
 
+## 2.1.2
+
+### Patch Changes
+
+- Convert to module
+
 ## 2.1.1
 
 ### Patch Changes
