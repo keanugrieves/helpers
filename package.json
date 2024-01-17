@@ -13,7 +13,7 @@
     "lint": "turbo lint",
     "test": "jest --config jest.config.cjs",
     "workspace:clean-build": "turbo clean && turbo build",
-    "workspace:publish-packages": "turbo run build lint test && changeset version && changeset publish"
+    "workspace:publish-packages": "pnpm run test && turbo run build lint && changeset version && changeset publish"
   },
   "dependencies": {
     "@changesets/cli": "2.27.1"
