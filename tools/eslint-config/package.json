@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "files": [
-    "library.js",
-    "next.js",
-    "react-internal.js"
+    "library.cjs",
+    "next.cjs",
+    "react-internal.cjs"
   ],
   "devDependencies": {
     "@vercel/style-guide": "^5.1.0",
