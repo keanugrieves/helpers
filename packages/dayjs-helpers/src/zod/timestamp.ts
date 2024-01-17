@@ -3,7 +3,5 @@ import { z } from "zod";
 
 export const TimestampSchema = z
   .number()
-  .refine(
-    (v) => dayjs(v).isValid() && dayjs(v).year() > 1969,
-    "Must be a valid timestamp"
-  );
+  .min(1000000000, "Must be greater than 1,000,000,000")
+  .refine((v) => dayjs(v).isValid(), "Must be a valid timestamp");
