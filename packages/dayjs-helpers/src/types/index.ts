@@ -1,1 +1,1 @@
-export * from "./dayjs-input";
+export * from "./dayjs-like";
