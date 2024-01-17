@@ -1,7 +1,6 @@
 {
-  "name": "@repo/template",
-  "version": "2.0.0",
-  "private": true,
+  "name": "@keanugrieves/dayjs-helpers",
+  "version": "2.0.1",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -12,7 +11,11 @@
     "dev": "pnpm run build -- --watch",
     "lint": "eslint ."
   },
-  "dependencies": {},
+  "dependencies": {
+    "@keanugrieves/zod-helpers": "workspace:*",
+    "dayjs": "1.11.10",
+    "zod": "3.22.4"
+  },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",

@@ -1,9 +1,9 @@
 {
-  "extends": "@repo/typescript-config/base.json",
+  "extends": "@repo/typescript-config/library.json",
   "compilerOptions": {
     "outDir": "dist",
-    "types": ["jest", "node"]
+    "types": ["node"]
   },
-  "include": ["src"],
+  "include": ["src", ".eslintrc.cjs"],
   "exclude": ["node_modules", "dist"]
 }

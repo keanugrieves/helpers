@@ -12,6 +12,10 @@
     "/packages/regex-helpers/src/zod",
     "/packages/nanoid-helpers/src/utils",
     "/packages/nanoid-helpers/src",
-    "/packages/regex-helpers/src"
+    "/packages/regex-helpers/src",
+    "/packages/dayjs-helpers/src",
+    "/packages/dayjs-helpers/src/zod",
+    "/packages/dayjs-helpers/src/utils",
+    "/packages/dayjs-helpers/src/types"
   ]
 }
