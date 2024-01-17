@@ -1,5 +1,5 @@
 ---
-"@keanugrieves/zod-helpers": 1.0.0
+"@keanugrieves/zod-helpers": patch
 ---
 
 - utils:
