@@ -1,5 +1,20 @@
 # @keanugrieves/regex-helpers
 
+## 2.1.5
+
+### Patch Changes
+
+- Bump
+- Updated dependencies
+  - @keanugrieves/zod-helpers@2.1.5
+
+## 2.1.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @keanugrieves/zod-helpers@2.1.4
+
 ## 2.1.3
 
 ### Patch Changes
