@@ -15,10 +15,6 @@
     },
     "lint": {
       "dependsOn": ["^lint"]
-    },
-    "test": {
-      "outputs": ["coverage/**"],
-      "dependsOn": []
     }
   }
 }
