@@ -1,5 +1,17 @@
 # @keanugrieves/zod-helpers
 
+## 2.1.5
+
+### Patch Changes
+
+- Bump
+
+## 2.1.4
+
+### Patch Changes
+
+- Added `PathSchema` and `UrlSchema`
+
 ## 2.1.3
 
 ### Patch Changes

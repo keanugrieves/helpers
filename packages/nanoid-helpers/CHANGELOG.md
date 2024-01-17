@@ -1,5 +1,20 @@
 # @keanugrieves/nanoid-helpers
 
+## 2.0.5
+
+### Patch Changes
+
+- Bump
+- Updated dependencies
+  - @keanugrieves/zod-helpers@2.1.5
+
+## 2.0.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @keanugrieves/zod-helpers@2.1.4
+
 ## 2.0.3
 
 ### Patch Changes
