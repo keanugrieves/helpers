@@ -10,8 +10,9 @@
     "dev": "turbo dev",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo lint",
-    "publish-packages": "turbo run build lint test && changeset version && changeset publish",
-    "test": "turbo test"
+    "test": "turbo test",
+    "workspace:clean-build": "turbo clean && turbo build",
+    "workspace:publish-packages": "turbo run build lint test && changeset version && changeset publish"
   },
   "dependencies": {
     "@changesets/cli": "2.27.1"
