@@ -1,5 +1,13 @@
 # @keanugrieves/nanoid-helpers
 
+## 2.0.2
+
+### Patch Changes
+
+- Convert to module
+- Updated dependencies
+  - @keanugrieves/zod-helpers@2.1.2
+
 ## 2.0.1
 
 ### Patch Changes
