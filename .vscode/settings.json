@@ -11,16 +11,18 @@
     "/packages/dayjs-helpers/src/types",
     "/packages/dayjs-helpers/src/utils",
     "/packages/dayjs-helpers/src/zod",
+    "/packages/enums/src",
+    "/packages/enums/src/zod",
     "/packages/nanoid-helpers/src",
     "/packages/nanoid-helpers/src/utils",
+    "/packages/react-helpers/src",
+    "/packages/react-helpers/src/utils",
     "/packages/regex-helpers/src",
     "/packages/regex-helpers/src/zod",
     "/packages/ui-helpers/src",
     "/packages/ui-helpers/src/utils",
     "/packages/zod-helpers/src",
     "/packages/zod-helpers/src/utils",
-    "/packages/zod-helpers/src/zod",
-    "/packages/react-helpers/src",
-    "/packages/react-helpers/src/utils"
+    "/packages/zod-helpers/src/zod"
   ]
 }
