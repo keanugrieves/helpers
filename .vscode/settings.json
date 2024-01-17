@@ -8,6 +8,7 @@
   "exportall.config.folderListener": [
     "/packages/zod-helpers/src",
     "/packages/zod-helpers/src/utils",
-    "/packages/zod-helpers/src/zod"
+    "/packages/zod-helpers/src/zod",
+    "/packages/regex-helpers/src/zod"
   ]
 }
