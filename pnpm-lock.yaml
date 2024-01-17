@@ -61,6 +61,61 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
 
+  packages/nanoid-helpers:
+    dependencies:
+      '@keanugrieves/zod-helpers':
+        specifier: workspace:*
+        version: link:../zod-helpers
+      nanoid:
+        specifier: ^3.3.7
+        version: 3.3.7
+      nanoid-dictionary:
+        specifier: 4.3.0
+        version: 4.3.0
+      zod:
+        specifier: 3.22.4
+        version: 3.22.4
+    devDependencies:
+      '@jest/globals':
+        specifier: 29.7.0
+        version: 29.7.0
+      '@repo/eslint-config':
+        specifier: workspace:*
+        version: link:../../tools/eslint-config
+      '@repo/jest-presets':
+        specifier: workspace:*
+        version: link:../../tools/jest-presets
+      '@repo/typescript-config':
+        specifier: workspace:*
+        version: link:../../tools/typescript-config
+      '@types/eslint':
+        specifier: ^8.56.1
+        version: 8.56.1
+      '@types/jest':
+        specifier: 29.5.11
+        version: 29.5.11
+      '@types/nanoid-dictionary':
+        specifier: 4.2.3
+        version: 4.2.3
+      '@types/node':
+        specifier: ^20.10.6
+        version: 20.10.6
+      eslint:
+        specifier: ^8.56.0
+        version: 8.56.0
+      jest:
+        specifier: 29.7.0
+        version: 29.7.0(@types/node@20.10.6)
+      tsup:
+        specifier: 8.0.1
+        version: 8.0.1(typescript@5.3.3)
+      type-fest:
+        specifier: 4.9.0
+        version: 4.9.0
+      typescript:
+        specifier: ^5.3.3
+        version: 5.3.3
+
   packages/regex-helpers:
     dependencies:
       '@keanugrieves/zod-helpers':
@@ -1491,6 +1546,10 @@ packages:
   /@types/minimist@1.2.5:
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
     dev: false
+
+  /@types/nanoid-dictionary@4.2.3:
+    resolution: {integrity: sha512-T98Halw1f2aJ802GtCNMHZgqX2q1LX85eMP+K7N+OXSLagdmAzooAEhB565FQXTiCxdF4wNijOBroAQJat4uig==}
+    dev: true
 
   /@types/node@12.20.55:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
@@ -4742,6 +4801,16 @@ packages:
       thenify-all: 1.6.0
     dev: true
 
+  /nanoid-dictionary@4.3.0:
+    resolution: {integrity: sha512-Xw1+/QnRGWO1KJ0rLfU1xR85qXmAHyLbE3TUkklu9gOIDburP6CsUnLmTaNECGpBh5SHb2uPFmx0VT8UPyoeyw==}
+    dev: false
+
+  /nanoid@3.3.7:
+    resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+    dev: false
+
   /natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
@@ -5975,6 +6044,11 @@ packages:
   /type-fest@0.8.1:
     resolution: {integrity: sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==}
     engines: {node: '>=8'}
+
+  /type-fest@4.9.0:
+    resolution: {integrity: sha512-KS/6lh/ynPGiHD/LnAobrEFq3Ad4pBzOlJ1wAnJx9N4EYoqFhMfLIBjUT2UEx4wg5ZE+cC1ob6DCSpppVo+rtg==}
+    engines: {node: '>=16'}
+    dev: true
 
   /type-level-regexp@0.1.17:
     resolution: {integrity: sha512-wTk4DH3cxwk196uGLK/E9pE45aLfeKJacKmcEgEOA/q5dnPGNxXt0cfYdFxb57L+sEpf1oJH4Dnx/pnRcku9jg==}
