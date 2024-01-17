@@ -2,10 +2,22 @@ import type dayjs from "dayjs";
 
 import type { NullishDayjsLike } from "../types";
 
+export type SortDatesOptions = {
+  direction?: "asc" | "desc";
+};
+
 export const _sortDates =
-  (_dayjs: typeof dayjs) => (values: NullishDayjsLike[]) =>
+  (_dayjs: typeof dayjs) =>
+  (values: NullishDayjsLike[], { direction = "asc" }: SortDatesOptions = {}) =>
     values
       .flatMap((v) => (v && _dayjs(v).isValid() ? v : []))
+      .map((v) => _dayjs(v))
       .sort((a, b) =>
-        _dayjs(a).toISOString() > _dayjs(b).toISOString() ? -1 : 1
+        a.toISOString() > b.toISOString()
+          ? direction === "asc"
+            ? -1
+            : 1
+          : direction === "asc"
+            ? 1
+            : -1
       );
