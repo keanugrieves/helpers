@@ -8,6 +8,9 @@
     "lint": "turbo lint",
     "test": "turbo test"
   },
+  "dependencies": {
+    "@changesets/cli": "2.27.1"
+  },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
