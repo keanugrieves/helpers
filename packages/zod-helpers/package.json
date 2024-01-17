@@ -1,0 +1,29 @@
+{
+  "name": "@keanugrieves/zod-helpers",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Add dev script here'",
+    "build": "echo 'Add build script here'",
+    "test": "jest",
+    "lint": "echo 'Add lint script here'"
+  },
+  "dependencies": {
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/jest-presets": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/jest": "29.5.11",
+    "@types/node": "^20.10.6",
+    "@types/eslint": "^8.56.1",
+    "eslint": "^8.56.0",
+    "jest": "29.7.0",
+    "tsup": "8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "jest": {
+    "preset": "@repo/jest-presets/node"
+  }
+}
