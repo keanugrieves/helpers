@@ -3,5 +3,6 @@
     {
       "mode": "auto"
     }
-  ]
+  ],
+  "workbench.colorTheme": "Tailwind Dark Zinc"
 }
