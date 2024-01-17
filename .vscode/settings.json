@@ -4,5 +4,10 @@
       "mode": "auto"
     }
   ],
-  "workbench.colorTheme": "Tailwind Dark Zinc"
+  "workbench.colorTheme": "Tailwind Dark Zinc",
+  "exportall.config.folderListener": [
+    "/packages/zod-helpers/src",
+    "/packages/zod-helpers/src/utils",
+    "/packages/zod-helpers/src/zod"
+  ]
 }
