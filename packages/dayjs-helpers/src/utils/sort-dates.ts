@@ -1,6 +1,6 @@
 import type dayjs from "dayjs";
 
-import { NullishDayjsLike } from "../types";
+import type { NullishDayjsLike } from "../types";
 
 export const _sortDates =
   (_dayjs: typeof dayjs) => (values: NullishDayjsLike[]) =>
