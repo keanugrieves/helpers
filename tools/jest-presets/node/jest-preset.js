@@ -1,9 +1,10 @@
 module.exports = {
   roots: ["<rootDir>"],
-  transform: {
-    "^.+\\.tsx?$": "ts-jest",
-  },
+  extensionsToTreatAsEsm: [".ts"],
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
+  moduleNameMapper: {
+    "^(\\.{1,2}/.*)\\.js$": "$1",
+  },
   modulePathIgnorePatterns: [
     "<rootDir>/test/__fixtures__",
     "<rootDir>/node_modules",
@@ -11,4 +12,10 @@ module.exports = {
   ],
   passWithNoTests: true,
   preset: "ts-jest",
+  "^.+\\.tsx?$": [
+    "ts-jest",
+    {
+      useESM: true,
+    },
+  ],
 };
