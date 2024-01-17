@@ -1,6 +1,7 @@
 {
   "name": "@keanugrieves/regex-helpers",
   "version": "2.1.1",
+  "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
