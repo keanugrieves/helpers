@@ -9,5 +9,6 @@ module.exports = {
     "<rootDir>/node_modules",
     "<rootDir>/dist",
   ],
+  passWithNoTests: true,
   preset: "ts-jest",
 };

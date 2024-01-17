@@ -1,5 +1,5 @@
 {
-  "name": "@keanugrieves/zod-helpers",
+  "name": "@keanugrieves/regex-helpers",
   "version": "2.1.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -11,6 +11,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@keanugrieves/zod-helpers": "workspace:*",
+    "magic-regexp": "0.7.0",
     "zod": "3.22.4"
   },
   "devDependencies": {

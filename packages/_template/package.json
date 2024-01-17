@@ -1,6 +1,7 @@
 {
-  "name": "@keanugrieves/zod-helpers",
-  "version": "2.1.0",
+  "name": "@repo/template",
+  "version": "2.0.0",
+  "private": true,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -10,9 +11,7 @@
     "test": "jest",
     "lint": "eslint ."
   },
-  "dependencies": {
-    "zod": "3.22.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@jest/globals": "29.7.0",
     "@repo/eslint-config": "workspace:*",
