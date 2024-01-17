@@ -1,5 +1,13 @@
 # @keanugrieves/regex-helpers
 
+## 2.1.2
+
+### Patch Changes
+
+- Convert to module
+- Updated dependencies
+  - @keanugrieves/zod-helpers@2.1.2
+
 ## 2.1.1
 
 ### Patch Changes
