@@ -22,13 +22,13 @@ module.exports = {
   },
   ignorePatterns: [
     // Ignore dotfiles
-    ".*.js",
+    ".*.cjs",
     "node_modules/",
     "dist/",
   ],
   overrides: [
     {
-      files: ["*.js?(x)", "*.ts?(x)"],
+      files: ["*.cjs?(x)", "*.ts?(x)"],
     },
   ],
 };

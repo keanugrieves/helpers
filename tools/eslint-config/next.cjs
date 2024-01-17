@@ -28,8 +28,8 @@ module.exports = {
   },
   ignorePatterns: [
     // Ignore dotfiles
-    ".*.js",
+    ".*.cjs",
     "node_modules/",
   ],
-  overrides: [{ files: ["*.js?(x)", "*.ts?(x)"] }],
+  overrides: [{ files: ["*.cjs?(x)", "*.ts?(x)"] }],
 };
