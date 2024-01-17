@@ -9,4 +9,4 @@ export const DayjsInputSchema = z.union([
   TimestampSchema,
 ]);
 
-/* export type DayjsInput = z.infer<typeof DayjsInputSchema>; */
+export type DayjsInput = z.infer<typeof DayjsInputSchema>;
