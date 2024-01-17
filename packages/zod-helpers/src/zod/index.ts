@@ -8,4 +8,5 @@ export * from "./non-zero-integer";
 export * from "./non-zero-number";
 export * from "./positive-integer";
 export * from "./positive-number";
+export * from "./required-string";
 export * from "./uuid";
