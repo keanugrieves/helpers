@@ -1,6 +1,6 @@
 {
   "name": "@keanugrieves/zod-helpers",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -8,7 +8,7 @@
     "dev": "pnpm run build -- --watch",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "test": "jest",
-    "lint": "echo 'Add lint script here'"
+    "lint": "eslint ."
   },
   "dependencies": {
     "zod": "3.22.4"
